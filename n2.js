@@ -1,6 +1,6 @@
 var count_item=0;
 document.cookie=`c=${count_item}`
-$(".btn").click(function(){
+$(".btn-lg").click(function(){
   count_item++;
   $("#count_item").html(count_item);
 
