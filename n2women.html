@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- for bootstrap linking -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--linking n2.css -->
+  <link rel="stylesheet" href="n2.css">
+<link rel="stylesheet" href="n2otherpages.css">
+  <script src="https://kit.fontawesome.com/8642dcf1e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="container-fluid header sticky-top" id="myHeader">
+    <div class="row head" style="padding-top:1%">
+      <div class="col-sm-3 col-12 logo">
+       <a href="n2index.html"><b>N2 inner wears</b></a> 
+      </div>
+
+      <div class="col-sm-6 col-12">
+        <div class=" input-group mb-3">
+          <input type="text" class="form-control" placeholder="Find your apparel" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-dark" type="button">Search</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-2 col-12 ll" style="border-right:1px solid; ">
+
+        <a style="color:white" href="C:\Website code\n2 inner wear\login.html">   <button type="button" class="btn  btn-dark b1"  >Login</button></a>
+
+      </div>
+      <div class="col-sm-1 col-12 ">
+        <button style="font-size:24px">  <i class="fa fa-shopping-cart f1"><div id="count_item"></div> </i> </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- btw header and carousel part  -->
+
+  <div class="container-fluid" style="border: 1px solid;">
+    <div class="row btw">
+
+
+      <div class="col-1"> </div>
+      <!--for margin -->
+      <div class="col "> <a href=" n2men.html">MEN</a> </div>
+      <div class="col"> <a href=" n2women.html">WOMEN</a> </div>
+      <div class="col"> <a href=" ">KIDS</a> </div>
+      <div class="col"> <a href=" ">TRENDS</a> </div>
+      <div class="col"> <a href=" ">NEW ARRIVALS</a> </div>
+      <div class="col "> <a href=" " style=" color:#EB6440;">OFFERS<i class="fa-sharp fa-solid fa-fire"></i></a> </div>
+
+
+    </div>
+  </div>
+  <!-- this box will contain filter and bootstrap cards -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2  filter-section">
+
+        <h4 class="f">Filter search </h4>
+      <hr>
+<div class="f">
+
+      <h5> categories</h5>
+
+    <input type="checkbox" id="categories0" name="brand" value=""">
+    <label for="categories0">All </label>
+    <br>
+    <input type="checkbox" id="categories1" name="brand1" value="brand">
+    <label for="categories1">Bra </label><br>
+    <input type="checkbox" id="categories2" name="brand" value="">
+    <label for="categories2">Sports Bra</label><br>
+    <input type="checkbox" id="categories3" name="brand" value="s">
+    <label for="categories3">Panties</label>
+    <br>
+<input type="checkbox" id="categories4" name="brand" value=""">
+    <label for="categories4">Night suit</label>
+
+    <br>
+    <input type="checkbox" id="categories5" name="brand" value=""">
+    <label for="categories5"> Thermal</label>
+    <br>
+    <input type="checkbox" id="categories6" name="brand" value=""">
+    <label for="categories6"> Socks</label>
+    <br>
+    <br>
+
+
+</div>
+<hr>
+<div class="filter">
+          <h5>Filter by brands</h5>
+
+<input type="checkbox" id="brand0" name="brand" value=""">
+<label for="brand0">All </label>
+<br>
+<input type="checkbox" id="brand" name="brand1" value="brand">
+<label for="brand1"> Jockey</label><br>
+<input type="checkbox" id="brand2" name="brand" value="">
+<label for="brand2"> Victoria Secret</label><br>
+<input type="checkbox" id="brand3" name="brand" value="s">
+<label for="brand3"> Calvin klien</label>
+<br>
+<input type="checkbox" id="brand4" name="brand" value=""">
+<label for="brand4">Clovia </label>
+<br>
+<input type="checkbox" id="brand5" name="brand" value=""">
+<label for="brand4">Zimave </label>
+<br>
+<input type="checkbox" id="brand6" name="brand" value=""">
+<label for="brand5">Luxx </label>
+
+</div>
+      </div>
+
+      <!-- products -->
+      <div class="col-10  product">
+        
+        <div class=" row  product-row">
+          
+          
+          <div class="card" style="width: 15rem;">
+ <img src="image\w1.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
+   <h5 class="card-title">Neva</h5>
+   <p class="card-text">Women Solid Thermal Top 5</p>
+   <h5 class="card-title"><br>₹249</h5>
+   
+   <a href="#" class="btn btn-primary btn-lg">BUY</a>
+ </div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+<img src="image\w12.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Jockey Vests</h5>
+  <p class="card-text">Simple and premium Quality Jockey Vests. Pack of 3</p>
+  <h5 class="card-title">₹349</h5>
+
+<a href="#" class="btn btn-primary btn-lg">BUY</a>
+</div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+  <img src="image\w11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  
+    <h5 class="card-title"><br>AMUL THERMAL</h5>
+    <p class="card-text">Warm and high Quality Thermal.Color-black</p>
+    <h5 class="card-title"><br>₹449</h5>
+  
+  <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  
+  </div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+  <img src="image\w10.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <h5 class="card-title">Rupa THERMAL</h5>
+    <p class="card-text">Warm and high Quality Thermal.Color-Grey</p>
+    <h5 class="card-title"><br>₹249</h5>
+  
+  <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  
+  </div>
+</div>
+        </div>
+
+        <div class=" row  product-row"> 
+            
+            <div class="card" style="width: 15rem;">
+              <img src="image\w5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jockey Sports</h5>
+                <p class="card-text">Premium Quality Sports bra</p>
+                <h5 class="card-title"><br>₹249</h5>
+                
+                <a href="#" class="btn btn-primary btn-lg">BUY</a>
+              </div>
+             </div>
+             
+
+             
+<div class="card" style="width: 15rem;">
+  <img src="image\w11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  
+    <h5 class="card-title"><br>AMUL THERMAL</h5>
+    <p class="card-text">Warm and high Quality Thermal.Color-black</p>
+    <h5 class="card-title"><br>₹449</h5>
+  
+  <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  
+  </div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+  <img src="image\w10.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <h5 class="card-title">Rupa THERMAL</h5>
+    <p class="card-text">Warm and high Quality Thermal.Color-Grey</p>
+    <h5 class="card-title"><br>₹249</h5>
+  
+  <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  
+  </div>
+</div>
+
+<div class="card" style="width: 15rem;">
+  <img src="image\w5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Jockey Sports</h5>
+    <p class="card-text">Premium Quality Sports bra</p>
+    <h5 class="card-title"><br>₹249</h5>
+    
+    <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  </div>
+ </div>
+             
+            
+          </div>
+
+        
+<!--         
+          <div class=" row  product-row"> 
+            
+            <div class="card" style="width: 15rem;">
+              <img src="image\w9.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Levis Socks</h5>
+                <p class="card-text">Premium Quality socks. Pack of 5</p>
+                <h5 class="card-title"><br>₹249</h5>
+                
+                <a href="#" class="btn btn-primary btn-lg ">BUY</a>
+              </div>
+             </div>
+             
+             
+             <div class="card" style="width: 15rem;">
+             <img src="image\w8.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Jockey Vests</h5>
+               <p class="card-text">Simple and premium Quality Jockey Vests. Pack of 3</p>
+               <h5 class="card-title">₹349</h5>
+             
+             <a href="#" class="btn btn-primary btn-lg">BUY</a>
+             </div>
+             </div>
+             
+             
+             <div class="card" style="width: 15rem;">
+               <img src="image\w7.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+               
+                 <h5 class="card-title"><br>AMUL THERMAL</h5>
+                 <p class="card-text">Warm and high Quality Thermal.Color-black</p>
+                 <h5 class="card-title"><br>₹449</h5>
+               
+               <a href="#" class="btn btn-primary btn-lg">BUY</a>
+               
+               </div>
+             </div>
+             
+             
+             <div class="card" style="width: 15rem;">
+               <img src="image\w6.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                
+                 <h5 class="card-title">Rupa THERMAL</h5>
+                 <p class="card-text">Warm and high Quality Thermal.Color-Grey</p>
+                 <h5 class="card-title"><br>₹249</h5>
+               
+               <a href="#" class="btn btn-primary btn-lg ">BUY</a>
+               
+               </div>
+             </div>    
+          </div> -->
+        
+
+
+
+
+        <div class=" row  product-row">
+          
+          
+          <div class="card" style="width: 15rem;">
+ <img src="image\w1.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
+   <h5 class="card-title">Neva</h5>
+   <p class="card-text">Women Solid Thermal Top 5</p>
+   <h5 class="card-title"><br>₹249</h5>
+   
+   <a href="#" class="btn btn-primary btn-lg">BUY</a>
+ </div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+<img src="image\w12.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Jockey Vests</h5>
+  <p class="card-text">Simple and premium Quality Jockey Vests. Pack of 3</p>
+  <h5 class="card-title">₹349</h5>
+
+<a href="#" class="btn btn-primary btn-lg">BUY</a>
+</div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+  <img src="image\w11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  
+    <h5 class="card-title"><br>AMUL THERMAL</h5>
+    <p class="card-text">Warm and high Quality Thermal.Color-black</p>
+    <h5 class="card-title"><br>₹449</h5>
+  
+  <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  
+  </div>
+</div>
+
+
+<div class="card" style="width: 15rem;">
+  <img src="image\w10.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+    <h5 class="card-title">Rupa THERMAL</h5>
+    <p class="card-text">Warm and high Quality Thermal.Color-Grey</p>
+    <h5 class="card-title"><br>₹249</h5>
+  
+  <a href="#" class="btn btn-primary btn-lg">BUY</a>
+  
+  </div>
+</div>
+        </div>
+
+     
+        
+
+     
+      </div>
+    </div>
+
+    </div>
+
+    <section id="footer">
+      <div class="row">
+      <div class="col"><a class="fx" href=""> Shop location </a></div>
+      <div class="col"><a class="fx" href=""> Shipping policy</a></div> 
+      <div class="col"> <a class="fx" href=""> Terms and condition</a></div>
+      <div class="col"> <a class="fx" href=""> Cancellation policy</a></div>
+       </div>
+       
+       <center> 
+        Made with <i class="fa-solid fa-brain"></i>  
+         of SAMRAT PATEL<br>  Copyright@2022 <br>
+         Follow us on Social Media <br>
+         <a href="" class="fx"><i class="fa-brands fa-square-twitter f"></i></a>
+         <a href="" class="fx"><i class="fa-brands fa-instagram f"></i></a>
+         <a href="" class="fx"><i class="fa-regular fa-envelope f"></i></a>
+         <a href="" class="fx"><i class="fa-brands fa-facebook f"></i></a>
+         <br>
+        </center> 
+      </div>
+      </section>
+      
+     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script src="n2.js" charset="utf-8"></script
+
+</body>
+
+</html>

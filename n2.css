@@ -1,0 +1,171 @@
+/* to fix margin  problems caused by bs row */
+.row
+{
+    margin-right: 0;
+}
+.container-fluid
+{
+    padding-right: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: rgb(91, 89, 89);
+}
+
+
+
+.head
+{
+    background-image: linear-gradient(to bottom right,#ce0d71,#FF8DC7);
+   
+}
+.logo
+{
+    font-size:35px;
+   font-family: 'Island Moments', cursive;
+   position: relative;
+   bottom:10px;
+}
+
+.ll
+{
+    position:relative;
+}
+.b1
+{
+    position:absolute;
+    right:5%;
+    background-image: linear-gradient(to bottom right,#010101,#082aee);
+  
+}
+
+.b1:hover
+{
+    position:absolute;
+    right:5%;
+    background-image: linear-gradient(to bottom right,#ADE792,#082aee);
+  
+  
+}
+
+.btw
+{ border: 1.5px solid;
+    font-weight:630;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.s3
+{
+    max-width:100%;
+}
+
+.carousel-caption
+{
+    bottom:100px;
+}
+/* location */
+#location
+{
+    background-image: linear-gradient(#FCDDB0,#E97777);
+    padding: 5%;
+}
+iframe:hover{
+    filter: invert(100%);
+}
+/* footer section */
+#footer
+{ color: white;
+    background-image: linear-gradient(#E97777,#FF8DC7);
+    font-weight: bold;
+}
+#footer .col{
+text-align: center;
+
+    padding-top: 5%;
+padding-bottom: 2%;
+}
+.fx
+{
+    color: white;
+}
+.f{
+    margin: 0.4%;
+}
+
+/* this will make header unstick while in smartphone viewport */
+@media (max-width:560px)   
+{
+    .sticky-top
+    {
+        position:static;
+    }
+
+    .logoBrands
+    {
+        text-align: center;
+    }
+}
+/* will make carousel button black */
+.carousel-control-next ,.carousel-control-prev   
+{
+    filter: invert(100%);
+}
+
+
+
+/* testimonial and features section */
+.icon
+{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+  color:red;
+}
+
+
+#features
+{
+  padding: 7% 15%;
+  position:relative;
+z-index: 1;
+
+}
+
+
+.fbox
+{
+
+padding:3%;
+}
+
+#testimonials
+{
+    
+  
+   text-align: center;   /* that even center's the image */
+color:black;  /* only effect icon and text color  */
+}
+#testimonials .carousel-item
+{
+  padding:  7% 15%;
+}
+
+.testimonial-img
+{
+  border-radius: 100%;   /* this will make img round */
+width:20%;  /* wrt tp vp i think or parent element but it will be responisved */
+}
+
+.merge2
+{
+    background-image: linear-gradient(white,#FCDDB0);   
+}
